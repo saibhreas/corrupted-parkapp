@@ -1,0 +1,14 @@
+
+
+
+
+
+
+/*$(document).on("click", "input:checkbox[name=filter]:checked", function(){
+    var flags = Array();
+    $("input:checkbox[name=filter]:checked", $(this).parents("ul").first()).each(function(){
+        flags.push($(this).val());
+    });
+    console.log(flags);
+});*/
+
