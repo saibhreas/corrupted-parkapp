@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href"="./assets/styleFiles/style.css">
+    <link rel="stylesheet" href="./assets/styleFiles/style.css">
     <title>ParksOut</title>
 </head>
 
@@ -59,9 +59,11 @@
               <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="search-park" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Go Somewhere</button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="" id="park-number-one">
+                    Appalachian State Trail
+                  </a>
+                  <a class="dropdown-item" href="">Another action</a>
+                  <a class="dropdown-item" href="">Something else here</a>
                 </div>
               </div>
             </div>
@@ -90,7 +92,7 @@
                 </li>
                 <li>
                   <input type="checkbox" id="cb3" value="notices" />
-                  <label for="cb3">Alerst</label>
+                  <label for="cb3">Alerts</label>
                 </li>
                 <li>
                   <input type="checkbox" id="cb4" value="temperature" />
@@ -115,7 +117,11 @@
     <section id="container4" class="container">
       <div class="row">
         <div class="col-6">
-          <h2> Temporary Place for Alex to put his Repo Fetches: <span id="weather-repos-container"></span></h2>
+          <h2> Temporary Place for Chris to put his Repo Fetches: <span id="geographic-repos-container">
+            <div id="result-wrapper">
+
+            </div>
+          </span></h2>
           <div id="weather-repos-box">
           </div>
         </div>
@@ -135,11 +141,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-    <script src="./assets/scriptFiles/htmlTest.js></script>
     
-    <!-- TODO: LINK ALL SCRIPT SOURCES CHRONOLOGICALLY 
-   /!-- <script src="./assets/scriptFiles/weatherinfo.js"></script>
-    <script src="./assets/scriptFiles/math.js"></script>-->
+    <!-- <!-- TODO: LINK ALL SCRIPT SOURCES CHRONOLOGICALLY /!--  -->
+      <script src="./assets/scriptFiles/weatherinfo.js"></script>
+    <script src="./assets/scriptFiles/logic.js"></script>
 </body>
 
 </html>
