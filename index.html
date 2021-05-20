@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href"="./assets/styleFiles/style.css">
+    <link rel="stylesheet" href="assets/styleFiles/style.css">
     <title>ParksOut</title>
 </head>
 
@@ -19,7 +19,7 @@
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <h1 class="display-4"><bold><em>Park Out</em></bold></h1>
-        <p class="lead">A place to see if it's good fora a walk in the park</p>
+        <p class="lead">A place to see if it's good for a walk in the park</p>
       </div>
     </div>
   </header>
@@ -73,11 +73,10 @@
       </div>
     </section>
 
-    <section id="container4">
+    <section id="container4" class="container">
       <div class="card">
         <div class="card-body">
-          <form id="pizza-form">
-            <fieldset class="group">
+             <fieldset class="group" onsubmit="return onSubmitData(event)">
               <legend>What information can we help you with?</legend>
               <ul class="checkbox">
                 <li>
@@ -98,7 +97,7 @@
                 </li>
                 <li>
                   <input type="checkbox" id="cb5" value="wind-speed" />
-                  <label for="cb5">Wind/label>
+                  <label for="cb5">Wind Speed
                 </li>
                 <li>
                   <input type="checkbox" id="cb6" value="humidity" />
@@ -115,8 +114,9 @@
     <section id="container4" class="container">
       <div class="row">
         <div class="col-6">
-          <h2> Temporary Place for Alex to put his Repo Fetches: <span id="weather-repos-container"></span></h2>
-          <div id="weather-repos-box">
+          <h2> Temporary Place for Alex to put his Repo Fetches: <span id="geographic-repos-container"></span></h2>
+          <div id="weather-repos-box"> /* this is equivalent to Alex's Result wrapper"
+            <input id=resultwrapper>
           </div>
         </div>
         <div class="col-6">
@@ -135,11 +135,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-    <script src="./assets/scriptFiles/htmlTest.js></script>
     
-    <!-- TODO: LINK ALL SCRIPT SOURCES CHRONOLOGICALLY 
-   /!-- <script src="./assets/scriptFiles/weatherinfo.js"></script>
-    <script src="./assets/scriptFiles/math.js"></script>-->
+    
+    <!-- TODO: LINK ALL SCRIPT SOURCES CHRONOLOGICALLY -->
+     <script src="./assets/scriptFiles/weatherinfo.js"></script>
+    <script src="./assets/scriptFiles/logic.js"></script>
 </body>
 
 </html>
