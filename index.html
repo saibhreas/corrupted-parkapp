@@ -65,6 +65,41 @@
       </div>
     </section>
 
+
+    <section id="container4" class="container">
+      <div class="card">
+        <div class="card-body">
+             <fieldset class="group" onsubmit="return onSubmitData(event)">
+              <legend>What information can we help you with?</legend>
+              <ul class="checkbox">
+                <li>
+                  <input type="checkbox" id="cb1" value="admisson" />
+                  <label for="cb1">Admission</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="cb2" value="hours" />
+                  <label for="cb2">Hours</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="cb3" value="notices" />
+                  <label for="cb3">Alerst</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="cb4" value="temperature" />
+                  <label for="cb4">Temperature</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="cb5" value="wind-speed" />
+                  <label for="cb5">Wind Speed
+                </li>
+                <li>
+                  <input type="checkbox" id="cb6" value="humidity" />
+                  <label for="cb6">Humidity</label>
+                </li>
+              </ul>
+            </fieldset>
+            <button class="btn btn-block btn-info">Submit Form</button>
+
           </form>
         </div>
       </div>
@@ -74,11 +109,26 @@
         <div class="col-6">
           <form>
 
+            <div class ="form-group weather-info">
+              <label id="weather-repos-container" for="Temp space for Alex: ">Example textarea </label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+            </div>
+          </form>          
+        </div>
+        <div class="col-6">
+          <form>
+            <div class ="form-group weather-info">
+              <label id="weather-repos-container" for="Temp space for Alex: ">Example textarea </label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+            </div>
+          </form>          
+
+
         </div>
       </div>
     </section>
   </main>
 
 </body>
-/!-- having issues with keeping a clean html page in the repo for everyone-->
+
 </html>
